@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> Progetto finale - Applicazione WEB per le previsioni del tempo </h1>
+  <h1>Applicazione WEB per le previsioni del tempo </h1>
  </div>
  
  ## Il progetto
