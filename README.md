@@ -13,10 +13,10 @@
 
 ## Tecnologie utilizzate 
 - Angular 13.x.y
-- Node.js 
+- Node.js 16.14.2 LTS
 - TypeScript
 - HTML5
-- CSS
+- CSS3
 
 ## Realizzato da...
 Francesco Di Lena, classe 4F, anno scolastico 2021-2022, I.T.I. Ferruccio Viola, Informatica
