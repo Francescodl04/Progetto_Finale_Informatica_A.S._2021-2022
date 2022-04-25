@@ -13,9 +13,9 @@
 
 ## Tecnologie utilizzate 
 - Angular 13.x.y
+- Angular Material
 - Node.js 16.14.2 LTS
 - TypeScript
-- Bootstrap 5.1.3
 - HTML5
 - CSS3
 
