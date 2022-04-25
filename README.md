@@ -15,6 +15,7 @@
 - Angular 13.x.y
 - Node.js 16.14.2 LTS
 - TypeScript
+- Bootstrap 5.1.3
 - HTML5
 - CSS3
 
