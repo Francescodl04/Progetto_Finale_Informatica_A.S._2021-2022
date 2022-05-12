@@ -1,3 +1,4 @@
+
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
 @use '@angular/material' as mat;
@@ -19,37 +20,16 @@ $Progetto-warn: mat.define-palette(mat.$red-palette);
 
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as "color" or "typography".
-$Progetto-theme: mat.define-light-theme((color: (primary: $Progetto-primary,
-        accent: $Progetto-accent,
-        warn: $Progetto-warn,
-      )));
-
-$my-palette: (
-  50: #E1F5FE,
-  100: #B3E5FC,
-  200: #81D4FA,
-  300: #4FC3F7,
-  400: #29B6F6,
-  500: #03A9F4,
-  600: #039BE5,
-  700: #0288D1,
-  800: #0277BD,
-  900: #01579B,
-  contrast:(
-    50:rgba(black, 0.87),
-    100:rgba(black, 0.87),
-    200:rgba(black, 0.87),
-    300:rgba(black, 0.87),
-    400:rgba(black, 0.87),
-    500:rgba(black, 0.87),
-    600:rgba(black, 0.87),
-    700:rgba(black, 0.87),
-    800:rgba(black, 0.87),
-    900:rgba(black, 0.87),
+$Progetto-theme: mat.define-light-theme((
+  color: (
+    primary: $Progetto-primary,
+    accent: $Progetto-accent,
+    warn: $Progetto-warn,
   )
-);
+));
 
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
 @include mat.all-component-themes($Progetto-theme);
+
